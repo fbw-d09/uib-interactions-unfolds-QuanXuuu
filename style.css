@@ -18,7 +18,7 @@
     height: 100px;
 }
 
-.box1
+.boxBlue
 {
     background-color: steelblue;
     transform: rotate(-90deg);
@@ -26,7 +26,7 @@
     translate: -100px 0;
 }
 
-.box2
+.boxGray
 {
     background-color: dimgray;
     position: absolute;
@@ -37,7 +37,7 @@
     translate: 200px 0;
 }
 
-.box3
+.boxYellow
 {
     background-color: yellow;
     transform: rotate(90deg);
@@ -45,7 +45,7 @@
     translate: -100px 0;
 }
 
-.box4
+.boxBrown
 {
     background-color: rosybrown;
     position: absolute;
