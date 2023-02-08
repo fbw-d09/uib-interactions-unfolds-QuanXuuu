@@ -1,0 +1,57 @@
+*
+{
+    box-sizing: border-box;
+}
+
+.message
+{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 100px;
+    position: relative;
+}
+
+.box
+{
+    width: 100px;
+    height: 100px;
+}
+
+.box1
+{
+    background-color: steelblue;
+    transform: rotate(-90deg);
+    transition: 1.5s;
+    translate: -100px 0;
+}
+
+.box2
+{
+    background-color: dimgray;
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+    transform: rotate(-90deg);
+    transition: 1.5s;
+    translate: 200px 0;
+}
+
+.box3
+{
+    background-color: yellow;
+    transform: rotate(90deg);
+    transition: 1.5s;
+    translate: -100px 0;
+}
+
+.box4
+{
+    background-color: rosybrown;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: rotate(90deg);
+    transition: 1.5s;
+    translate: 200px 0;
+}
