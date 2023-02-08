@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Babylonica&family=Inter:wght@400;700;800&display=swap');
+
+*
+{
+    box-sizing: border-box;
+}
+
+h1
+{
+    position: absolute;
+    top:24%;
+    left: 52%;
+    font-family: 'Babylonica', cursive;
+
+}
+
+.container
+{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 100px;
+    position: relative;
+}
+
+.box
+{
+    width: 100px;
+    height: 100px;
+}
+
+.boxBlue
+{
+    background-color: steelblue; 
+}
+
+.boxGray
+{
+    background-color: dimgray;
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+}
+
+.boxYellow
+{
+    background-color: yellow;
+}
+
+.container:hover .boxBlue
+{
+    transform: rotate(-90deg);
+    transition: 1.5s;
+    translate: -100px 0;
+}
+
+.container:hover .boxGray
+{
+    transform: rotate(-90deg);
+    transition: 1.5s;
+    translate: 200px 0;
+}
+
+.boxBrown
+{
+    background-color: rosybrown;
+    position: absolute;
+    top: 50%;
+    left:50%;
+}
+
+.container:hover .boxYellow
+{
+    transform: rotate(90deg);
+    transition: 1.5s;
+    translate: -100px 0;
+}
+
+.container:hover .boxBrown
+{
+    transform: rotate(90deg);
+    transition: 1.5s;
+    translate: 200px 0;
+}
